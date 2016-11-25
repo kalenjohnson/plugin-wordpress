@@ -2,7 +2,7 @@
     "name": "withfatpanda/plugin-wordpress",
     "description": "WordPress plugin project scaffolding",
     "type": "wordpress-plugin",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +18,8 @@
         "classmap": ["src/"]
     },
     "require-dev": {
-        "phpunit/phpunit": "5.*"
+        "phpunit/phpunit": "5.*",
+        "illuminate/filesystem": "5.3.*"
     },
     "autoload-dev": {
         "psr-4": {
