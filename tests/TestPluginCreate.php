@@ -18,7 +18,7 @@ class TestPluginCreate extends TestCase {
 
 	function testPluginCreate()
 	{
-		$created = Plugin::create( PluginWorkbench::getFilePath() );
+		$created = Plugin::create( null, PluginWorkbench::getFilePath() );
 
 		$this->assertTrue(file_exists($created['files']['main']));
 		$this->assertTrue(file_exists($created['files']['plugin']));

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.4
+* Fixing a bug in Plugin::create
+* Removed errant type from composer file
+
 ## 1.0.3
 * Add concept of a "workbench"—a scratch space for putting generated files—to support TestCase development
 * Do a better job of divorcing the scaffolding and the created plugins, e.g., make a dedicated composer.json file
