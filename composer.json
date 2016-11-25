@@ -1,5 +1,6 @@
 {
     "name": "withfatpanda/plugin-wordpress",
+    "description": "WordPress plugin project scaffolding",
     "version": "1.0.0",
     "license": "MIT",
     "authors": [
