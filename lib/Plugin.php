@@ -127,6 +127,9 @@ abstract class Plugin {
 	 */
 	static function create()
 	{
+		// make sure we've bootstrapped Composer
+		require_once static::getBasePath().'/vendor/autoload.php';
+
 		$tokens = [];
 
 		// make sure we have a stub to work with
