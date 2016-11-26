@@ -30,7 +30,7 @@ In Bedrock, as much as can be moved to configuration has been&mdash;you don't, f
 
 At first, the file tree is going to look a little weird:
 
-![alt text](https://github.com/withfatpanda/plugin-wordpress/raw/master/lib/common/images/project-files.gif "Wait... where's all my stuff?")
+![alt text](https://github.com/withfatpanda/plugin-wordpress/raw/master/lib/common/images/project-files.png "Wait... where's all my stuff?")
 
 ### Dude, where's my plugin?
 
