@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.8
+* Added stubs for examples of CustomPostType and CustomTaxonomy subclasses
+* Added more codedoc to the Plugin stub
+* Improved documenation
+
 ## v1.0.7
 * Bugfix: run your test plan first, dummy
 * Fix bugs in the test plan, too
