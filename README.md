@@ -20,7 +20,7 @@ From this point forward, let our WordPress plugins depend on the best Composer h
 
 1. Setup a [Workbench](https://github.com/withfatpanda/workbench-wordpress). A Workbench is an installation of WordPress that you'll use to build and test your plugins&mdash;it's based on [Bedrock](https://roots.io/bedrock).
 
-2. Install [Studio](https://github.com/franzliedke/studio). Studio is a utility that allows you to build your Composer in context (as if they were already dependencies in another project):
+2. Install [Studio](https://github.com/franzliedke/studio). Studio is a utility that allows you to author your Composer packages in context (as if they were already dependencies in another project):
 
 	`composer global require franzl/studio`
 
