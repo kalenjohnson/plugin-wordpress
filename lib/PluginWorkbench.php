@@ -68,6 +68,8 @@ class PluginWorkbench {
 			$plugin = static::getStub('plugin');
 			$main = static::getStub('main');
 			$composer = static::getStub('composer');
+			$customPostType = static::getStub('custom-post-type');
+			$customTaxonomy = static::getStub('custom-taxonomy');
 		} catch (\Exception $e) {
 			\cli\out("%1".$e->getMessage()."%n\n");
 			exit;
@@ -119,9 +121,14 @@ class PluginWorkbench {
 
 		$composer_file = $output_path.'/composer.json';
 
+		$person_file = $output_path.'/src/Models/Person.php';
+		$department_file = $output_path.'/src/Models/Department.php';
+
 		file_put_contents($main_file, str_replace(array_keys($tokens), array_values($tokens), $main));
 		file_put_contents($plugin_file, str_replace(array_keys($tokens), array_values($tokens), $plugin));
 		file_put_contents($composer_file, str_replace(array_keys($tokens), array_values($tokens), $composer));
+		file_put_contents($person_file, str_replace(array_keys($tokens), array_values($tokens), $customPostType));
+		file_put_contents($department_file, str_replace(array_keys($tokens), array_values($tokens), $customTaxonomy));
 
 		// delete the cleanup test
 		$test_file = $output_path.'/tests/TestPluginCreate.php';
@@ -134,7 +141,9 @@ class PluginWorkbench {
 			'files' => [ 
 				'main' => $main_file, 
 				'plugin' => $plugin_file,
-				'composer' => $composer_file
+				'composer' => $composer_file,
+				'person' => $person_file,
+				'department' => $department_file,
 			]
 		];
 	}
