@@ -2,6 +2,8 @@
 
 At [Fat Panda](https://wordpress.withfatpanda.com), sometimes we build plugins for WordPress. To speed up our prototyping process and time to market, we've created this project and process, and now you can use it too.
 
+![alt text](https://github.com/withfatpanda/plugin-wordpress/raw/master/lib/common/images/demo.gif "Creating a new Plugin project")
+
 ## This ain't the WordPress way.
 
 WordPress is amazing. So are [Composer](https://getcomposer.org/) and [Packagist](https://packagist.org/). They're great for different reasons. 
