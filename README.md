@@ -54,7 +54,7 @@ But once you start working with it, we're convinced you'll see too that WordPres
 
   ```
   studio load /path/to/my-plugin 
-  composer require my-namespace/my-plugin 
+  composer require my-namespace/my-plugin:"*" 
   composer update
   ```
 
