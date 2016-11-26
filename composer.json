@@ -1,7 +1,7 @@
 {
     "name": "withfatpanda/plugin-wordpress",
     "description": "WordPress plugin project scaffolding",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "MIT",
     "authors": [
         {
@@ -33,7 +33,7 @@
         "illuminate/support": "5.3.*"
     },
     "scripts": {
-        "post-create-project-cmd": "FatPanda\\WordPress\\Plugin::create"
+        "post-create-project-cmd": "FatPanda\\WordPress\\PluginWorkbench::create"
     },
     "minimum-stability": "dev"
 }
