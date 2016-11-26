@@ -1,6 +1,7 @@
 <?php
 namespace FatPanda\WordPress;
 
+use Illuminate\Support\Str;
 use Illuminate\Filesystem\Filesystem;
 
 /**

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.7
+* Bugfix: run your test plan first, dummy
+* Fix bugs in the test plan, too
+
 ## v1.0.6
 * Bugfix: was calling the wrong function in PluginWorkbench
 
