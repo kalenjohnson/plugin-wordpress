@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v1.0.6
+* Bugfix: was calling the wrong function in PluginWorkbench
+
 ## v1.0.5
 * Refactor Plugin baseclass into withfatpanda/illuminate-wordpress
 * Update documentation
