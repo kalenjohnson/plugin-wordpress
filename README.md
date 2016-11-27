@@ -68,7 +68,7 @@ The file that encapsulates all of your plugin's unique action and filter hooks a
 
 The file that you should use to define routes for any extensions your plugin makes to the WP REST API should be authored in **src/Http/routes.php**.
 
-For those familiar with either Composer or WordPress, this will make no sense (at first)&mdash;WordPress folks expect plugins to be in a folder named **wp-content/plugins** and Composer users expect packages to be installed into a **./vendors** folder in the root of the project.
+For those familiar with either Composer or WordPress, this will make no sense (at first)&mdash;WordPress folks expect plugins to be in a folder named **wp-content/plugins** and Composer users expect packages to be installed into a **./vendor** folder in the root of the project.
 
 Remember that Bedrock projects are architected less like WordPress, and more like apps&mdash;and this manner of organizing the code places the important, custom parts you build much closer to the top of the codebase.
 
